@@ -1,23 +1,24 @@
-## Linzi Yu
+### -- Who is Linzi Yu? --
 
-### -- Who is She? --
+Linzi Yu is a [master's candidate in Biomedical Informatics at Harvard Medical School](https://dbmi.hms.harvard.edu/people/linzi-yu) and is about to graduate in December 2022. She received her Bachelor's degree - in Marine Science at [Zhejiang University](https://www.zju.edu.cn/english/), one of the top universities in China. As a young professional, she is passionate about implementing [diverse machine learning and data sciences tools](https://github.com/linzi-yu/ML-Models) to solve meaningful questions from different areas. 
 
-Linzi Yu is a master's candidate in Biomedical Informatics at Harvard Medical School, graduating in December 2022. She received her Bachelor's degree - in Marine Science at Zhejiang University, one of the top 5 universities in China. She is passionate about implementing [diverse machine learning and data sciences tools](https://github.com/linzi-yu/ML-Models) to solve multilevel bio-medical-health-related questions. 
+She dedicates herself to data-driven and business-related translational biomedical technologies after years of academic training and career exploration in the biotech/healthcare industry. (Check out her Linkedin [here](https://www.linkedin.com/in/linzi-yu/)!)
 
+### -- Data + Biomedicine = New World! -- 
+Linzi loves to walk out of her comfort zone. During her master's, she tried different study topics within biomedical informatics. 
+Her [image segmentation project](https://linzi-yu.github.io/Projects%20Present/Deep%20Learning%20for%20Automatic%20Segmentation%20of%20Chest%20X-Ray%20poster.pdf) with her classmates.
 *Keywords: Disease Prediction; Deep Learning; Image Analysis; Database Infrastructure; Software Development*
 
-With years of academic training and her career exploration in the biotech/healthcare industry, she dedicates herself to data-driven translational biomedical technologies, at least a ten years scope.
+### -- Research Experience --
+If given a fancy title, her research during her graduate school would be **Machine Learning & Data Empowered Clinical and Epidemiology Investigation**. 
 
-
-### -- Machine Learning, Data Related Research Experience--
-
-She is a visiting student at Dr. Andrea Ganna's [Data Science - Genetic Epidemiology Lab](https://www.dsgelab.org/team). Here, she works on the effect of genome copy number variation on the patient healthcare cost in the Finnish population.
+She is a visiting student at Dr. Andrea Ganna's [Data Science - Genetic Epidemiology Lab](https://www.dsgelab.org/team). Here, she works on the effect of genome copy number variation on the patient healthcare cost in the Finnish population. 
 
 *Keywords: DiGeorge syndrome; GWAS; Human genetics; Public health*
 
-She also joined [Dr. Arnaout's lab](http://arnaoutlab.org/) and a student researcher at Beth Israel Deaconess Medical Center. She is currently working on implementing information technology (Maximum Entropy Model) and machine learning algorithms to deal with data augmentation in cardiological clinical data. The project is also collaborating with [Dr. Rima, cardiologist from UCSF](https://profiles.ucsf.edu/rima.arnaout).
+She also joined [Dr. Arnaout's lab](http://arnaoutlab.org/) and a student researcher at Beth Israel Deaconess Medical Center. She is currently working on implementing information theory ([Maximum Entropy](https://en.wikipedia.org/wiki/Principle_of_maximum_entropy#:~:text=The%20principle%20of%20maximum%20entropy,proposition%20that%20expresses%20testable%20information).)) and machine learning algorithms to deal with data augmentation in cardiological clinical data. The project is also collaborating with [Dr. Rima, cardiologist from UCSF](https://profiles.ucsf.edu/rima.arnaout).
 
-*Keywords: Machine Learning; Information Theory; Data Sciences; Generative Algorithm; Generic Model; Maximum Entropy Model*
+*Keywords: Machine Learning; Information Theory; Data Sciences; Generative Algorithm; Generic Model*
 
 
 ### -- Consulting Experience--
