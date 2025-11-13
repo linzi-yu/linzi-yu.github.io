@@ -1,1 +1,10 @@
-theme: jekyll-theme-cayman
+title: "Linzi Yu"
+description: "MS Biomedical Informatics @ Harvard. Data + Biomedicine."
+baseurl: "" # leave blank for user.github.io
+url: "https://linzi-yu.github.io"
+author:
+  name: "Linzi Yu"
+  email: "yulinzi98@gmail.com"
+theme: jekyll-theme-cayman #theme: minima   # or orderedlist if you add that theme. See below how to add themes.
+plugins: []
+
