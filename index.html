@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linzi Yu - Biomedical Informatics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    /* ===== Base Styles ===== */
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: url('AEB466EF-F9B2-453B-A212-60634E4E81F9.JPG') no-repeat center center fixed;
+      background-size: cover;
+          /* 修改背景为白色 */
+      color: #222222; /* 深色文字 was #f0f0f0;*/
+    }
+    a { color: #0f6fb4; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 900px; margin: auto; background: rgba(239, 228, 228, 0.7); padding: 30px; border-radius: 15px; margin-top: 50px; margin-bottom: 50px; }
+    h1, h2, h3 { color: #222222; }
+    hr { border: 1px solid #b15c3d; }
+
+    /* ===== Tabs ===== */
+    .tab {
+      overflow: hidden;
+      border-bottom: 1px solid #0f6fb4;
+      margin-bottom: 20px;
+    }
+    .tab button {
+      background-color: inherit;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 20px;
+      transition: 0.3s;
+      color: #222222;
+      font-weight: 500;
+    }
+    .tab button:hover { background-color: #0f6fb43d; }
+    .tab button.active { border-bottom: 3px solid #0f6fb4; }
+
+    .tabcontent {
+      display: none;
+      animation: fadeEffect 0.5s;
+    }
+    @keyframes fadeEffect {
+      from {opacity: 0;} 
+      to {opacity: 1;}
+    }
+
+    /* ===== Sections ===== */
+    .section { margin-bottom: 30px; }
+    ul { padding-left: 20px; }
+
+    /* About section minimal styling */
+    .about-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 12px 0 20px 0;
+    }
+
+    .about-list li {
+    margin-bottom: 6px;
+    font-size: 0.98rem;
+    }
+
+    .quote {
+    font-size: 0.9rem;
+    color: #555;
+    font-style: italic;
+    border-left: 3px solid #ccc;
+    padding-left: 12px;
+    margin: 18px 0;
+    }
+
+    .about-links a {
+    color: #1a73e8;
+    text-decoration: none;
+    margin-right: 8px;
+    }
+
+    .about-links a:hover {
+    text-decoration: underline;
+    }
+
+    .publication {
+      border-left: 4px solid #0f6fb4;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      background-color: rgba(249, 249, 249, 0.6);
+      border-radius: 6px;
+    }
+
+    .pub-title {
+      margin: 0 0 6px 0;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .pub-authors {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 8px;
+    }
+
+    .pub-link {
+      color: #1a73e8;
+      text-decoration: none;
+      margin-left: 6px;
+    }
+
+    .pub-link:hover {
+      text-decoration: underline;
+    }
+
+    .pub-highlights ul {
+      margin: 6px 0 0 20px;
+      padding: 0;
+      list-style-type: disc;
+    }
+
+    .pub-highlights li {
+      margin-bottom: 4px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Linzi Yu</h1>
+  <p><em>Biomedical Informatics | Data Science | Biotech & Healthcare</em></p>
+
+  <!-- Tabs -->
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+    <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
+    <button class="tablinks" onclick="openTab(event, 'Experience')">Experience</button>
+    <button class="tablinks" onclick="openTab(event, 'Research')">Research</button>
+    <button class="tablinks" onclick="openTab(event, 'Publications')">Publications</button>
+    <button class="tablinks" onclick="openTab(event, 'Contact')">Contact Me</button>
+  </div>
+
+<!-- About -->
+<div id="About" class="tabcontent">
+  <h2>About</h2>
+
+  <p>
+    I’m a data scientist with 4+ years of experience in healthcare and life sciences. 
+    Harvard-trained, I focus on building machine learning and analytics solutions that are practical, reliable, and used in real workflows.
+  </p>
+
+  <ul class="about-list">
+    <li>🏥 Healthcare analytics & machine learning</li>
+    <li>📊 Building analytical tools, models, and dashboards</li>
+    <li>⚡ Independent, adaptable, and execution-driven</li>
+  </ul>
+
+<p class="quote">
+  “Linzi is a pleasure to work with — eager to learn, detail-oriented, strong communication skills, and highly independent. Most importantly, she consistently delivers exactly what is asked — often faster than expected. She’s in the top 5% of data scientists I’ve ever worked with, and I’d hire her again any chance I get.”
+  <span class="quote-source">— a former manager</span>
+</p>
+
+
+  <p class="about-links">
+    <a href="https://www.linkedin.com/in/linzi-yu/" target="_blank">LinkedIn</a> ·
+    <a href="https://github.com/linzi-yu" target="_blank">GitHub</a> ·
+    <a href="https://dbmi.hms.harvard.edu/people/linzi-yu" target="_blank">Harvard Profile</a>
+  </p>
+</div>
+
+
+  <!-- Education -->
+<div id="Education" class="tabcontent">
+  <h2 class="tab-title">Education</h2>
+  
+  <!-- Degree Programs -->
+  <h3 class="sub-title">Degree Programs</h3>
+  <ul class="education-list">
+    <li>
+      <strong>Harvard Medical School</strong> – <em>Master's in Biomedical Informatics</em>
+    </li>
+    <li>
+      <strong>Zhejiang University</strong> – <em>Bachelor's in Marine Science</em>
+    </li>
+  </ul>
+
+  <!-- Non-Degree / Short Programs -->
+  <h3 class="sub-title">Non-Degree / Short Programs</h3>
+  <ul class="education-list">
+    <li>
+      <strong>MIT Sloan School of Management</strong><br>
+      Cross Registration: MIT 15.363 Strategic Decision Making in Life Sciences
+    </li>
+    <li>
+      <strong>Waseda University</strong><br>
+      Exchange Program, School of Social Science<br>
+      Master Kong's Global Asia Leadership Program – Conducted research on STEM women in Japan
+    </li>
+    <li>
+      <strong>The University of Western Australia</strong><br>
+      Summer School, Ocean Institute
+    </li>
+  </ul>
+</div>
+
+
+
+  <!-- Research -->
+  <div id="Research" class="tabcontent">
+    <h2>Research Experience</h2>
+    <p><strong>Machine Learning & Data Empowered Clinical and Epidemiology Investigation</strong></p>
+    <ul>
+      <li>Visiting student at Dr. Andrea Ganna's <a href="https://www.dsgelab.org/team">Data Science - Genetic Epidemiology Lab</a> – studying genome CNV effects on healthcare cost.</li>
+      <li>Worked with <a href="http://arnaoutlab.org/">Dr. Arnaout's lab</a> at Beth Israel Deaconess MC on info theory & ML algorithms for cardiological data.</li>
+    </ul>
+    <p><em>Keywords: Disease Prediction, Deep Learning, GWAS, Information Theory, Generative Models</em></p>
+  </div>
+
+  <!-- Experience -->
+  <div id="Experience" class="tabcontent">
+    <h2>Professional Experience</h2>
+    <p><strong>Consulting:</strong> IQVIA Shanghai, oncology market analysis.</p>
+    <p><strong>Product Manager / Software Engineer:</strong> Electronic lab notebook startup – learned JavaScript & product development.</p>
+    <p><strong>Data Engineer / Bioinformatician:</strong> Delonix Bioworks – first quantitative hire, database & analytics.</p>
+    <p><strong>Biotech Startup:</strong> Asan Therapeutics – helped push research outcomes to next level via business strategy.</p>
+  </div>
+
+<!-- Publications -->
+<div id="Publications" class="tabcontent">
+  <h2>Publications</h2>
+<!-- Pub1 -->
+<div class="publication">
+  <h3 class="pub-title">GEM‑T: Generative Tabular Data via Fitting Moments</h3>
+  <p class="pub-authors">
+    Li M, Nguyen P, Tam C, Morgan A, Ge K, Bansal R, <strong>Yu L</strong>, Arnaout R — 2025  
+    <a href="https://arxiv.org/abs/2509.17752" target="_blank" class="pub-link">arXiv link</a>
+  </p>
+  <div class="pub-highlights">
+    <strong>Highlights:</strong>
+    <ul>
+      During this project at Beth Israel Deaconess Medical Center (BIDMC) in Boston, Linzi Yu was responsible for the mid-stage training and evaluation of the GEM‑T model. Building on the preliminary framework developed by lab members, she executed the model on real-world patient disease measurement data using Bash shell and conducted detailed analyses of model performance, accuracy, and efficiency with Python, leveraging plotting libraries and SnakViz for visualization. Her work demonstrated the feasibility of this novel approach in generating high-fidelity tabular data that accurately captures column-wise statistical moments and produces fast, interpretable outputs, especially for healthcare datasets, which are typically scarce and challenging to access.
+    </ul>
+  </div>
+</div>
+<!-- Pub2 -->
+<div class="publication">
+  <h3 class="pub-title">Enhancing semantic segmentation in chest X‑ray images through image preprocessing: ps‑KDE for pixel-wise substitution by kernel density estimation</h3>
+  <p class="pub-authors">
+    Wang Y, Guo Y, Wang Z, <strong>Yu L</strong>, Yan Y, Gu Z — 2024. 
+    <a href="https://pubmed.ncbi.nlm.nih.gov/38913621/" target="_blank" class="pub-link">PubMed link</a>
+  </p>
+  <div class="pub-highlights">
+    <strong>Highlights:</strong>
+    <ul>
+      This class-project-turned-paper developed ps‑KDE, a preprocessing technique that substitutes pixel values in chest X-ray images by their normalized density via kernel-density estimation. Applied to organ semantic segmentation with U-Net/ResNet34, the left-lung Dice score improved from 0.717 to 0.780 (p &lt; 0.01), demonstrating improved robustness for medical imaging tasks.
+    </ul>
+  </div>
+</div>
+<!-- Pub3 -->
+<div class="publication">
+  <h3 class="pub-title">Global Analysis of Furfural-Induced Genomic Instability Using a Yeast Model</h3>
+  <p class="pub-authors">
+    Lei Q, Zhang K, Wang Y‑T, Wu J‑K, Sui Y, Liang X‑Z, <strong>Yu L‑Z</strong>, Wu X‑C, Wang P‑M, Xu J‑Z, Zheng D‑Q — 2019. 
+    <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6715844/" target="_blank" class="pub-link">PMC link</a>
+  </p>
+  <div class="pub-highlights">
+    <strong>Highlights:</strong>
+    <ul>
+      During my undergraduate years in Dr. Zheng’s lab, I contributed to a yeast-model study exploring furfural-induced genome instability. Exposure led to aneuploidy, chromosomal rearrangements, loss of heterozygosity, and elevated mutation rates, providing a global map of chemical stress effects on genomic integrity.</p>
+    </ul>
+  </div>
+</div>
+</div>  <!-- END Publications -->
+
+  <!-- Contact -->
+  <div id="Contact" class="tabcontent">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:yulinzi98@gmail.com">yulinzi98@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/linzi-yu/">Linzi Yu</a></p>
+    <p>GitHub: <a href="https://github.com/linzi-yu">github.com/linzi-yu</a></p>
+  </div>
+
+</div>
+
+<script>
+  function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) { tabcontent[i].style.display = "none"; }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) { tablinks[i].className = tablinks[i].className.replace(" active", ""); }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  // Open default tab
+  document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
+
